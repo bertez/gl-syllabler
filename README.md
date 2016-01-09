@@ -1,6 +1,6 @@
 # Galician Syllabler
 
-[![Build Status](https://travis-ci.org/bertez/gl-syllabler.svg?branch=master)](https://travis-ci.org/bertez/gl-syllabler)
+[![Build Status](https://travis-ci.org/bertez/gl-syllabler.svg?branch=master)](https://travis-ci.org/bertez/gl-syllabler) [![npm version](https://badge.fury.io/js/gl-syllabler.svg)](https://badge.fury.io/js/gl-syllabler)
 
 Split galician language words into syllables.
 
