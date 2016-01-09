@@ -6,18 +6,19 @@ const mocha = require('gulp-mocha');
 
 
 gulp.task('watch', function() {
-    gulp.watch(['**/*.js', '!node_modules/**'], ['lint']);
+    return gulp.watch(['**/*.js', '!node_modules/**'], ['lint']);
 });
 
 gulp.task('test', ['lint'], () => {
-    gulp.src('test/*.js')
+    return gulp.src('test/*.js')
         .pipe(mocha());
 });
 
 gulp.task('lint', () => {
-    gulp.src(['**/*.js','!node_modules/**'])
+    return gulp.src(['**/*.js','!node_modules/**'])
     .pipe(eslint())
-    .pipe(eslint.format());
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
 });
 
 gulp.task('default', ['test']);
