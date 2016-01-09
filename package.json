@@ -1,0 +1,36 @@
+{
+  "name": "gl-syllabler",
+  "version": "1.0.0",
+  "description": "Split galician language words into syllables",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/bertez/gl-syllabler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bertez/gl-syllabler.git"
+  },
+  "keywords": [
+    "language",
+    "words",
+    "syllables",
+    "galician",
+    "galego"
+  ],
+  "author": "Berto Yáñez <berto@ber.to>",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/bertez/gl-syllabler#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4"
+  }
+}
