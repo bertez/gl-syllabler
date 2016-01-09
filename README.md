@@ -1,4 +1,5 @@
-# Galician Syllabler v0.0.1
+# Galician Syllabler
+
 Split galician language words into syllables.
 
 # Usage
@@ -22,10 +23,12 @@ The result should be:
 
 # License
 
-Port and adaptation by Berto Yáñez <berto@ber.to>
+Port and adaptation by Berto Yáñez.
 
 This is a port to Javascript of "Separador de Sílabas del Español" adapted to galician.
 
 Hernández-Figueroa, Z; Rodríguez-Rodríguez, G; Carreras-Riudavets, F (2009).
 Separador de sílabas del español - Silabeador TIP.
 Available at http://tip.dis.ulpgc.es
+
+See [LICENSE](https://github.com/bertez/gl-syllabler/blob/master/LICENSE) for more details.
