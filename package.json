@@ -4,7 +4,7 @@
   "description": "Split galician language words into syllables",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "gulp test"
   },
   "engines": {
     "node": ">=4.0"
