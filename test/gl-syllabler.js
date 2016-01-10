@@ -33,4 +33,12 @@ describe('Syllabler', () => {
             expect(result.stress).to.equal('0/0/0/0/1/0');
         });
     });
+
+    describe('Detect accented position', () => {
+        it('Should split correctly', () => {
+            const result = syl('lingüista');
+
+            expect(result.accentedPosition).to.equal(5);
+        });
+    });
 });
