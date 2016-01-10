@@ -1,6 +1,6 @@
 {
   "name": "gl-syllabler",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Split galician language words into syllables",
   "main": "index.js",
   "scripts": {
